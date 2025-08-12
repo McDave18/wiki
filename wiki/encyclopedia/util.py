@@ -35,3 +35,9 @@ def get_entry(title):
             return f.read()
     except FileNotFoundError:
         return None
+    
+def find_entry_case_insensitive(title: str):
+    for e in list_entries():
+        if e.lower() == title.lower():
+            return e
+    return None
