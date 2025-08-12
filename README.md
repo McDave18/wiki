@@ -49,7 +49,7 @@ wiki/               # Proyecto Django / Django project
 
 1. **Clonar el repositorio / Clone the repository**
    ```bash
-   git clone <URL_DEL_REPOSITORIO / REPOSITORY_URL>
+   git clone <https://github.com/me50/McDave18.git>
    cd wiki
    ```
 
